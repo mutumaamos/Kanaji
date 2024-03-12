@@ -1,1 +1,30 @@
+#include<unistd.h>
+#include<studio.h>
+#include<fcntl.h>
+into main() {
+int fd;
+char buffer[80] ;
+ch msg[50]=* hell ifocos institute " ;
+fd=open("check. text", O_RWR) ;
+printf("fd=℅fd", fd) ;
+if(fd=-1){
+printf("check. text opened with write access") 
+Write(fd, msg, sizeof(msg)) ;
+Iseek(fd, o, seek_set) ;
+read(fd, buffer, sizeof(msg)) ;
+printf("in ℅s was written to my file ", buffer);
+close(fd) ;} 
+return 0;
+} 
+
+
+
+
+
+} 
+
+
+
+
+
 
