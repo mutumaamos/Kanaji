@@ -42,6 +42,66 @@ echo"Tax:$tax"
 echo"Net pay:$net_pay"
 
 
+Question 3 answer 
+
+read-p"enter customerID:"customer_id
+read-p"enter customername:customer_name
+if[$units_consumed -It 200] ; then
+charges_per_unit=120
+elif[$units_consumed -ge 200] &&
+[$units_consumed charges_per_unit=180] 
+else
+charges_per_unit=200
+fi
+Total bill=$(unit_consumed *charges_per_unit
+echo"Customerid:$customer_id"
+echo"customername:$customer_name"
+echo"unitsconsumed:$units_consumed"
+
+echo"total bill:$total_bill"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
