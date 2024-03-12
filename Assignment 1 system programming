@@ -1,3 +1,6 @@
+
+Question 1 Answer
+
 #include<unistd.h>
 #include<studio.h>
 #include<fcntl.h>
@@ -18,10 +21,29 @@ return 0;
 } 
 
 
+Question 2 Answer 
+echo"enter employee name:"
+read name
+echo"enter hours worked"
+read hours
+echo"enter rate per hour"
+read rate
+if[$basic_pay -gt 7000]; then
+tax=$(basic_pay*25/109)
+elif[$basic_pay -ge 1500];then
+taxa=$(basic_pay*15/100)
+else
+tax=0
+fi
+net_pay=$(basic_pay-tax) 
+echo"Employee name:$name"
+echo"basic pay:$basic_pay"
+echo"Tax:$tax"
+echo"Net pay:$net_pay"
 
 
 
-} 
+
 
 
 
